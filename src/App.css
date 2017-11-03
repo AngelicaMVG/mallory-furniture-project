@@ -248,8 +248,28 @@ button.active {
 
 .img-category {
   width: 100%;
-  background-image: url("./images/category-storage.png");
   height: 300px;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.img-category-seating {
+  background-image: url("./images/category-seating.png");
+}
+
+.img-category-table {
+  background-image: url("./images/category-tables.png");
+}
+
+.img-category-desk {
+  background-image: url("./images/category-desks.png");
+}
+.img-category-bedroom {
+  background-image: url("./images/category-bedroom.png");
+}
+.img-category-storage {
+  background-image: url("./images/category-storage.png");
+}
+.img-category-misc {
+  background-image: url("./images/category-miscellaneous.png");
 }

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Categories from "./BrowseByCategories";
-import Prueba from "./Prueba";
+import HomeContent from "./HomeContent";
 import { Link } from "react-router-dom";
 
 export default class Home extends Component {
@@ -27,7 +27,7 @@ export default class Home extends Component {
           <p className="label-subtitle">
             Check out some of our favorite listing
           </p>
-          <Prueba furniture={this.state.furniture} />
+          <HomeContent furniture={this.state.furniture} />
         </div>
         <div className="btn-allProducts-container">
           <Link className="btn-allProducts" to="/all-products">

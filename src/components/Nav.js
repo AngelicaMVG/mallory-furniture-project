@@ -9,31 +9,31 @@ export default class Nav extends Component {
         <img src={logo} alt="" />
         <ul>
           <li>
-            <a href="/about">About</a>
+            <Link to="/about">About</Link>
           </li>
           <li>
-            <a href="/terms">Terms + Conditions</a>
+            <Link to="/terms">Terms + Conditions</Link>
           </li>
         </ul>
         <ul className="blue-link">
           <li className="separador">|</li>
           <li>
-            <a href="/category/seating">Seating</a>
+            <Link to="category/seatings">Seating</Link>
           </li>
           <li>
-            <a href="category/tables">Tables</a>
+            <Link to="category/tables">Tables</Link>
           </li>
           <li>
-            <a href="category/desks">Desks</a>
+            <Link to="category/desks">Desks</Link>
           </li>
           <li>
-            <a href="category/storages">Storages</a>
+            <Link to="category/storage">Storages</Link>
           </li>
           <li>
-            <a href="category/bedroom">Bedroom</a>
+            <Link to="/category/bedroom">Bedroom</Link>
           </li>
           <li>
-            <a href="category/misc">Misc</a>
+            <Link to="/category/misc">Misc</Link>
           </li>
           <li className="separador">|</li>
         </ul>
